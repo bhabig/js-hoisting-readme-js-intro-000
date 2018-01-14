@@ -3,16 +3,16 @@ function callMe() {
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
-  return lyric;
   var lyric = "maybe";
+  return lyric;
 }
 
 
 function crazy() {
-  // fix the code in here:
+  var crazy= "hey!!!"
   thisIsCrazy();
 
-  var thisIsCrazy = function (){
+  var thisIsCrazy = function () {
     console.log("hey!!!")
   }
 }
